@@ -15,11 +15,11 @@ jobs:
   obtain-access-token:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Obtain Access Token
         id: get-token
-        uses: your-repo/jwt-bearer-oauth2-action@v1
+        uses: UnitVectorY-Labs/jwt-bearer-token-vendor@v1
         with:
           github-audience: 'your-client-audience'
           request-token-url: 'https://issuer.example.com/token'
