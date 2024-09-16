@@ -305,7 +305,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist # Committing dist for the github action
 
 # Gatsby files
 .cache/

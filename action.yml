@@ -1,0 +1,32 @@
+name: 'jwt-bearer-token-vendor'
+description: 'A GitHub Action that uses the JWT Bearer flow to vend access tokens for API authentication.'
+author: 'UnitVectorY Labs'
+
+inputs:
+  github-audience:
+    description: 'The audience for the GitHub OIDC token that will be sent to the server in the assertion.'
+    required: true
+  request-token-url:
+    description: 'The token endpoint URL of your API that supports the jwt-bearer grant type.'
+    required: true
+  request-client-id:
+    description: 'The client ID for your service that will be sent in the jwt-bearer request.'
+    required: true
+  request-audience:
+    description: 'The audience parameter included in the jwt-bearer request.'
+    required: false
+  request-scope:
+    description: 'The scope parameter included in the jwt-bearer request.'
+    required: false
+
+outputs:
+  access-token:
+    description: 'The access token obtained from your API.'
+  token-type:
+    description: 'The type of token issued (e.g., `Bearer`).'
+  expires-in:
+    description: 'The number of seconds until the access token expires.'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
