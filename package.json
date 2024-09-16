@@ -4,7 +4,7 @@
   "description": "A GitHub Action used to request an access tokens from an external OAuth 2.0 server that supports the jwt-bearer grant type authenticated to with a GitHub OIDC token.",
   "main": "index.js",
   "scripts": {
-    "build": "ncc build index.js -o dist"
+    "bundle": "ncc build index.js -o dist"
   },
   "dependencies": {
     "@actions/core": "^1.10.1",
@@ -15,5 +15,13 @@
   },
   "keywords": ["oauth2", "jwt"],
   "author": "UnitVectorY Labs",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UnitVectorY-Labs/jwt-bearer-token-vendor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UnitVectorY-Labs/jwt-bearer-token-vendor/issues"
+  },
+  "homepage": "https://github.com/UnitVectorY-Labs/jwt-bearer-token-vendor"
 }
