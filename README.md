@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT) [![Active](https://img.shields.io/badge/Status-Active-green)](https://guide.unitvectorylabs.com/bestpractices/status/#active)
+
 # jwt-bearer-token-vendor
 
 A GitHub Action used to request an access tokens from an external OAuth 2.0 server that supports the jwt-bearer grant type authenticated to with a GitHub OIDC token.
