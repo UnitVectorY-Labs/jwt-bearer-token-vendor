@@ -1,1 +1,1 @@
-exclude=LICENSE,dist,package-lock.json
+exclude=LICENSE,dist,node_modules,package-lock.json
