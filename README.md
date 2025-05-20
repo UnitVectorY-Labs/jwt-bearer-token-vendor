@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT) [![Active](https://img.shields.io/badge/Status-Active-green)](https://guide.unitvectorylabs.com/bestpractices/status/#active)
+[![GitHub release](https://img.shields.io/github/release/UnitVectorY-Labs/jwt-bearer-token-vendor.svg)](https://github.com/UnitVectorY-Labs/jwt-bearer-token-vendor/releases/latest) [![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT) [![Active](https://img.shields.io/badge/Status-Active-green)](https://guide.unitvectorylabs.com/bestpractices/status/#active)
 
 # jwt-bearer-token-vendor
 
