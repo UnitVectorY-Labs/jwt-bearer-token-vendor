@@ -399,3 +399,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,eclipse,windows,intellij,visualstudiocode,node
+
+# Compiled TypeScript output
+lib/
